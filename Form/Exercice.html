@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Validation</title>
+</head>
+<body>
+    <h1>Register</h1>
+        <form method="GET">
+<div>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fName" id="fname" placeholder="John" required>
+        
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lName" id="lname" placeholder="Smith" required> 
+
+</div>
+        <div>
+            <label for="male">Male</label>      
+            <input type="radio" name="gender" id="male">
+            
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+    </div>
+        
+        <div>
+                <label for="mail">Email</label>
+                <input type="email" name="mail" id="mail" placeholder="your email" required>
+                
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required title="Minimum 5 lettres" maxlength="10" minlength="5" placeholder="your password">
+        
+        </div>
+        
+        <div>
+                <label>Birthday :
+                        <select name="month" id="">
+                                <option value="" disabled selected>Mois</option>
+                            <option value="1">Janvier</option>
+                            <option value="2">Février</option>
+                            <option value="3">Mars</option>
+                        </select>
+                
+                        <select name="day" id="day">
+                                <option value="" disabled selected>Jour</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                
+                        <select name="year" id="year">
+                            <option value="" disabled selected>Année</option>
+                            <option >2000</option>
+                            <option >2001</option>
+                            <option >2002</option>
+                            <option >2003</option>
+                            <option >2004</option>
+                        </select>
+                </label>
+                
+                        
+        </div>
+        <label for="agreement">I agree to the terms and conditions</label>
+        <input type="checkbox" name="agree" id="agreement" required>
+        </div>
+        <button type="submit">Valider</button>
+    </form>
+</body>
+</html>
