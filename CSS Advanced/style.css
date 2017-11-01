@@ -1,0 +1,47 @@
+/* font family */
+
+h1{
+    font-family: Pacifico;
+}
+
+p {
+    font-family: Oranienbaum;
+}
+
+/* font size */
+body{
+    font-size: 10px
+}
+h1{
+    font-size: 5.0em;
+}
+p{
+    font-size: 2.0em;
+}
+
+/* Font weight */
+
+p{
+    font-weight: normal
+}
+
+/* line height */
+
+p{
+    line-height: 2;
+}
+
+/* text align  */
+
+p:nth-of-type(2){
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+/* text decoration  */
+
+p {
+    text-decoration: underline;
+}
