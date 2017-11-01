@@ -37,6 +37,7 @@ _site
 *.vi
 *.zip
 *~
+/Bootstrap/bootstrap/*
 
 # OS or Editor folders
 ._*
