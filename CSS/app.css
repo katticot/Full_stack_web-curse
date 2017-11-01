@@ -1,0 +1,21 @@
+h1{
+    color: red;
+    background:url(https://upload.wikimedia.org/wikipedia/commons/5/51/Red_wooden_furniture.jpg);
+    /* border-color: yellowgreen;
+    border-width: 5px;
+    border-style: solid; */
+    border: 5px dotted teal;
+}
+h4{
+    color: blue;
+}
+
+li{
+    color: tan;
+}
+
+body {
+        /* background: url(https://static.pexels.com/photos/71940/water-drop-splashing-motion-71940.jpeg);
+        background-size: cover */
+        background: gray;
+}

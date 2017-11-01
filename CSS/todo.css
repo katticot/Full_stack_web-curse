@@ -1,0 +1,30 @@
+body {
+    background: rgb(143, 123, 89);
+}
+li{
+    border: blue solid 2px
+}
+#special{
+    background: yellow
+}
+
+.completed {
+    text-decoration: line-through
+
+}
+
+  input[type="text"] {
+    background: red;
+}
+
+input[type="checkbox"] {
+    background-color: blue
+}
+
+li:nth-of-type(3){
+background-color: cyan
+}
+
+input:checked{
+    background :red
+}
