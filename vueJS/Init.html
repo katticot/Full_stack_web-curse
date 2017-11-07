@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ma premiere page de VUE </title>
+    <script src="https://unpkg.com/vue"></script>
+  </head>
+  <body>
+    <div id="app-3">
+  <p v-if="seen">Mddaintenant vous me voyez</p>
+</div>
+
+<div id="app-5">
+  <p>{{ message }}</p>
+  <button class="vue-btn" @click="reverseMessage">Message retourné</button>
+</div>
+
+<div id="app-6">
+  <p>{{ message }}</p>
+  <input v-model="message">
+</div>
+
+<div id="app-7">
+  <ol>
+    <!--
+      Now we provide each todo-item with the todo object
+      it's representing, so that its content can be dynamic.
+      We also need to provide each component with a "key",
+      which will be explained later.
+    -->
+    <todo-item
+      v-for="item in groceryList"
+      v-bind:todo="item"
+      v-bind:key="item.id">
+    </todo-item>
+  </ol>
+
+  <div v-if=show>
+    hey!!
+  </div>
+</div>
+
+<script src="Monscript.js"></script>
+
+  </body>
+</html>
